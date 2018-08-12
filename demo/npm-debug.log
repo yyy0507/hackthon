@@ -1,0 +1,538 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/qitmac000447/.nvm/versions/node/v6.9.2/bin/node',
+1 verbose cli   '/Users/qitmac000447/.nvm/versions/node/v6.9.2/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData body-parser
+20 silly mapToRegistry name body-parser
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'body-parser',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'body-parser',
+23 silly mapToRegistry   name: 'body-parser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://npmrepo.corp.qunar.com/body-parser
+25 silly fetchNamedPackageData cheerio
+26 silly mapToRegistry name cheerio
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'cheerio',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'cheerio',
+29 silly mapToRegistry   name: 'cheerio',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri http://npmrepo.corp.qunar.com/cheerio
+31 silly fetchNamedPackageData cookie-parser
+32 silly mapToRegistry name cookie-parser
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'cookie-parser',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'cookie-parser',
+35 silly mapToRegistry   name: 'cookie-parser',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri http://npmrepo.corp.qunar.com/cookie-parser
+37 silly fetchNamedPackageData express
+38 silly mapToRegistry name express
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'express',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'express',
+41 silly mapToRegistry   name: 'express',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri http://npmrepo.corp.qunar.com/express
+43 silly fetchNamedPackageData hbs
+44 silly mapToRegistry name hbs
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'hbs',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'hbs',
+47 silly mapToRegistry   name: 'hbs',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://npmrepo.corp.qunar.com/hbs
+49 silly fetchNamedPackageData iconv-lite
+50 silly mapToRegistry name iconv-lite
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'iconv-lite',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'iconv-lite',
+53 silly mapToRegistry   name: 'iconv-lite',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri http://npmrepo.corp.qunar.com/iconv-lite
+55 silly fetchNamedPackageData morgan
+56 silly mapToRegistry name morgan
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'morgan',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'morgan',
+59 silly mapToRegistry   name: 'morgan',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri http://npmrepo.corp.qunar.com/morgan
+61 silly fetchNamedPackageData request
+62 silly mapToRegistry name request
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'request',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'request',
+65 silly mapToRegistry   name: 'request',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri http://npmrepo.corp.qunar.com/request
+67 verbose request uri http://npmrepo.corp.qunar.com/body-parser
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 10:33:00 AM
+70 verbose request id 6767df569a9dfdee
+71 http request GET http://npmrepo.corp.qunar.com/body-parser
+72 verbose request uri http://npmrepo.corp.qunar.com/cheerio
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 10:33:00 AM
+75 http request GET http://npmrepo.corp.qunar.com/cheerio
+76 verbose request uri http://npmrepo.corp.qunar.com/cookie-parser
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 10:33:00 AM
+79 http request GET http://npmrepo.corp.qunar.com/cookie-parser
+80 verbose request uri http://npmrepo.corp.qunar.com/express
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 10:33:00 AM
+83 http request GET http://npmrepo.corp.qunar.com/express
+84 verbose request uri http://npmrepo.corp.qunar.com/hbs
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 10:33:00 AM
+87 http request GET http://npmrepo.corp.qunar.com/hbs
+88 verbose request uri http://npmrepo.corp.qunar.com/morgan
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 10:33:00 AM
+91 http request GET http://npmrepo.corp.qunar.com/morgan
+92 verbose request uri http://npmrepo.corp.qunar.com/iconv-lite
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 10:33:00 AM
+95 verbose etag "5afe9bb800221e36cc1ec86278e4913f"
+96 http request GET http://npmrepo.corp.qunar.com/iconv-lite
+97 verbose request uri http://npmrepo.corp.qunar.com/request
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 10:33:00 AM
+100 verbose etag "c4636ccf7805aabc5a8b07a28a86f7cc"
+101 http request GET http://npmrepo.corp.qunar.com/request
+102 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+103 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+104 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+105 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+106 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+107 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+108 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+109 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+110 info attempt registry request try #2 at 10:34:25 AM
+111 http request GET http://npmrepo.corp.qunar.com/morgan
+112 info attempt registry request try #2 at 10:34:25 AM
+113 http request GET http://npmrepo.corp.qunar.com/hbs
+114 info attempt registry request try #2 at 10:34:25 AM
+115 http request GET http://npmrepo.corp.qunar.com/express
+116 info attempt registry request try #2 at 10:34:25 AM
+117 http request GET http://npmrepo.corp.qunar.com/cookie-parser
+118 info attempt registry request try #2 at 10:34:25 AM
+119 http request GET http://npmrepo.corp.qunar.com/cheerio
+120 info attempt registry request try #2 at 10:34:25 AM
+121 http request GET http://npmrepo.corp.qunar.com/body-parser
+122 info attempt registry request try #2 at 10:34:25 AM
+123 verbose etag "c4636ccf7805aabc5a8b07a28a86f7cc"
+124 http request GET http://npmrepo.corp.qunar.com/request
+125 info attempt registry request try #2 at 10:34:25 AM
+126 verbose etag "5afe9bb800221e36cc1ec86278e4913f"
+127 http request GET http://npmrepo.corp.qunar.com/iconv-lite
+128 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+129 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+130 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+131 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+132 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+133 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+134 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+135 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 10.88.159.10:80
+136 info attempt registry request try #3 at 10:36:40 AM
+137 http request GET http://npmrepo.corp.qunar.com/body-parser
+138 info attempt registry request try #3 at 10:36:40 AM
+139 http request GET http://npmrepo.corp.qunar.com/cheerio
+140 info attempt registry request try #3 at 10:36:40 AM
+141 http request GET http://npmrepo.corp.qunar.com/cookie-parser
+142 info attempt registry request try #3 at 10:36:40 AM
+143 http request GET http://npmrepo.corp.qunar.com/express
+144 info attempt registry request try #3 at 10:36:40 AM
+145 http request GET http://npmrepo.corp.qunar.com/hbs
+146 info attempt registry request try #3 at 10:36:40 AM
+147 http request GET http://npmrepo.corp.qunar.com/morgan
+148 info attempt registry request try #3 at 10:36:40 AM
+149 verbose etag "c4636ccf7805aabc5a8b07a28a86f7cc"
+150 http request GET http://npmrepo.corp.qunar.com/request
+151 info attempt registry request try #3 at 10:36:40 AM
+152 verbose etag "5afe9bb800221e36cc1ec86278e4913f"
+153 http request GET http://npmrepo.corp.qunar.com/iconv-lite
+154 silly get cb [ 304, undefined ]
+155 verbose etag http://npmrepo.corp.qunar.com/iconv-lite from cache
+156 verbose get saving iconv-lite to /Users/qitmac000447/.npm/npmrepo.corp.qunar.com/iconv-lite/.cache.json
+157 verbose correctMkdir /Users/qitmac000447/.npm correctMkdir not in flight; initializing
+158 silly fetchPackageMetaData Error: connect ETIMEDOUT 10.88.159.10:80
+158 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+158 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+158 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+158 silly fetchPackageMetaData  error for morgan@~1.6.1 { Error: connect ETIMEDOUT 10.88.159.10:80
+158 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+158 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+158 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+158 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+158 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+158 silly fetchPackageMetaData   syscall: 'connect',
+158 silly fetchPackageMetaData   address: '10.88.159.10',
+158 silly fetchPackageMetaData   port: 80 }
+159 silly get cb [ 304, undefined ]
+160 verbose etag http://npmrepo.corp.qunar.com/request from cache
+161 verbose get saving request to /Users/qitmac000447/.npm/npmrepo.corp.qunar.com/request/.cache.json
+162 verbose correctMkdir /Users/qitmac000447/.npm correctMkdir already in flight; waiting
+163 silly fetchPackageMetaData Error: connect ETIMEDOUT 10.88.159.10:80
+163 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+163 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+163 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+163 silly fetchPackageMetaData  error for hbs@^4.0.1 { Error: connect ETIMEDOUT 10.88.159.10:80
+163 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+163 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+163 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+163 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+163 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+163 silly fetchPackageMetaData   syscall: 'connect',
+163 silly fetchPackageMetaData   address: '10.88.159.10',
+163 silly fetchPackageMetaData   port: 80 }
+164 silly fetchPackageMetaData Error: connect ETIMEDOUT 10.88.159.10:80
+164 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+164 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+164 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+164 silly fetchPackageMetaData  error for express@~4.13.0 { Error: connect ETIMEDOUT 10.88.159.10:80
+164 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+164 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+164 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+164 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+164 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+164 silly fetchPackageMetaData   syscall: 'connect',
+164 silly fetchPackageMetaData   address: '10.88.159.10',
+164 silly fetchPackageMetaData   port: 80 }
+165 silly fetchPackageMetaData Error: connect ETIMEDOUT 10.88.159.10:80
+165 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+165 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+165 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+165 silly fetchPackageMetaData  error for cookie-parser@~1.3.5 { Error: connect ETIMEDOUT 10.88.159.10:80
+165 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+165 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+165 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+165 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+165 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+165 silly fetchPackageMetaData   syscall: 'connect',
+165 silly fetchPackageMetaData   address: '10.88.159.10',
+165 silly fetchPackageMetaData   port: 80 }
+166 silly fetchPackageMetaData Error: connect ETIMEDOUT 10.88.159.10:80
+166 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+166 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+166 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+166 silly fetchPackageMetaData  error for cheerio@^0.19.0 { Error: connect ETIMEDOUT 10.88.159.10:80
+166 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+166 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+166 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+166 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+166 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+166 silly fetchPackageMetaData   syscall: 'connect',
+166 silly fetchPackageMetaData   address: '10.88.159.10',
+166 silly fetchPackageMetaData   port: 80 }
+167 silly fetchPackageMetaData Error: connect ETIMEDOUT 10.88.159.10:80
+167 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+167 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+167 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+167 silly fetchPackageMetaData  error for body-parser@~1.13.1 { Error: connect ETIMEDOUT 10.88.159.10:80
+167 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+167 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+167 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+167 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+167 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+167 silly fetchPackageMetaData   syscall: 'connect',
+167 silly fetchPackageMetaData   address: '10.88.159.10',
+167 silly fetchPackageMetaData   port: 80 }
+168 silly resolveWithNewModule request@2.87.0 checking installable status
+169 silly cache add args [ 'request@^2.78.0', null ]
+170 verbose cache add spec request@^2.78.0
+171 silly cache add parsed spec Result {
+171 silly cache add   raw: 'request@^2.78.0',
+171 silly cache add   scope: null,
+171 silly cache add   escapedName: 'request',
+171 silly cache add   name: 'request',
+171 silly cache add   rawSpec: '^2.78.0',
+171 silly cache add   spec: '>=2.78.0 <3.0.0',
+171 silly cache add   type: 'range' }
+172 silly addNamed request@>=2.78.0 <3.0.0
+173 verbose addNamed ">=2.78.0 <3.0.0" is a valid semver range for request
+174 silly addNameRange { name: 'request', range: '>=2.78.0 <3.0.0', hasData: false }
+175 silly mapToRegistry name request
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+178 silly mapToRegistry data Result {
+178 silly mapToRegistry   raw: 'request',
+178 silly mapToRegistry   scope: null,
+178 silly mapToRegistry   escapedName: 'request',
+178 silly mapToRegistry   name: 'request',
+178 silly mapToRegistry   rawSpec: '',
+178 silly mapToRegistry   spec: 'latest',
+178 silly mapToRegistry   type: 'tag' }
+179 silly mapToRegistry uri http://npmrepo.corp.qunar.com/request
+180 verbose addNameRange registry:http://npmrepo.corp.qunar.com/request not in flight; fetching
+181 silly resolveWithNewModule iconv-lite@0.4.23 checking installable status
+182 silly cache add args [ 'iconv-lite@^0.4.23', null ]
+183 verbose cache add spec iconv-lite@^0.4.23
+184 silly cache add parsed spec Result {
+184 silly cache add   raw: 'iconv-lite@^0.4.23',
+184 silly cache add   scope: null,
+184 silly cache add   escapedName: 'iconv-lite',
+184 silly cache add   name: 'iconv-lite',
+184 silly cache add   rawSpec: '^0.4.23',
+184 silly cache add   spec: '>=0.4.23 <0.5.0',
+184 silly cache add   type: 'range' }
+185 silly addNamed iconv-lite@>=0.4.23 <0.5.0
+186 verbose addNamed ">=0.4.23 <0.5.0" is a valid semver range for iconv-lite
+187 silly addNameRange { name: 'iconv-lite', range: '>=0.4.23 <0.5.0', hasData: false }
+188 silly mapToRegistry name iconv-lite
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry http://npmrepo.corp.qunar.com/
+191 silly mapToRegistry data Result {
+191 silly mapToRegistry   raw: 'iconv-lite',
+191 silly mapToRegistry   scope: null,
+191 silly mapToRegistry   escapedName: 'iconv-lite',
+191 silly mapToRegistry   name: 'iconv-lite',
+191 silly mapToRegistry   rawSpec: '',
+191 silly mapToRegistry   spec: 'latest',
+191 silly mapToRegistry   type: 'tag' }
+192 silly mapToRegistry uri http://npmrepo.corp.qunar.com/iconv-lite
+193 verbose addNameRange registry:http://npmrepo.corp.qunar.com/iconv-lite not in flight; fetching
+194 verbose get http://npmrepo.corp.qunar.com/request not expired, no request
+195 silly addNameRange number 2 { name: 'request', range: '>=2.78.0 <3.0.0', hasData: true }
+196 silly addNameRange versions [ 'request',
+196 silly addNameRange   [ '2.83.0',
+196 silly addNameRange     '2.82.0',
+196 silly addNameRange     '2.81.0',
+196 silly addNameRange     '2.80.0',
+196 silly addNameRange     '2.79.0',
+196 silly addNameRange     '2.78.0',
+196 silly addNameRange     '2.77.0',
+196 silly addNameRange     '2.76.0',
+196 silly addNameRange     '2.75.0',
+196 silly addNameRange     '2.74.0',
+196 silly addNameRange     '2.73.0',
+196 silly addNameRange     '2.72.0',
+196 silly addNameRange     '2.71.0',
+196 silly addNameRange     '2.70.0',
+196 silly addNameRange     '2.69.0',
+196 silly addNameRange     '2.68.0',
+196 silly addNameRange     '2.67.0',
+196 silly addNameRange     '2.66.0',
+196 silly addNameRange     '2.65.0',
+196 silly addNameRange     '2.64.0',
+196 silly addNameRange     '2.63.0',
+196 silly addNameRange     '2.62.0',
+196 silly addNameRange     '2.61.0',
+196 silly addNameRange     '2.60.0',
+196 silly addNameRange     '2.59.0',
+196 silly addNameRange     '2.58.0',
+196 silly addNameRange     '2.57.0',
+196 silly addNameRange     '2.56.0',
+196 silly addNameRange     '2.55.0',
+196 silly addNameRange     '2.54.0',
+196 silly addNameRange     '2.53.0',
+196 silly addNameRange     '2.52.0',
+196 silly addNameRange     '2.51.0',
+196 silly addNameRange     '2.50.0',
+196 silly addNameRange     '2.49.0',
+196 silly addNameRange     '2.48.0',
+196 silly addNameRange     '2.47.0',
+196 silly addNameRange     '2.46.0',
+196 silly addNameRange     '2.45.0',
+196 silly addNameRange     '2.44.0',
+196 silly addNameRange     '2.43.0',
+196 silly addNameRange     '2.42.0',
+196 silly addNameRange     '2.41.0',
+196 silly addNameRange     '2.40.0',
+196 silly addNameRange     '2.39.0',
+196 silly addNameRange     '2.38.0',
+196 silly addNameRange     '2.37.0',
+196 silly addNameRange     '2.36.0',
+196 silly addNameRange     '2.35.0',
+196 silly addNameRange     '2.34.0',
+196 silly addNameRange     '2.33.0',
+196 silly addNameRange     '2.32.0',
+196 silly addNameRange     '2.31.0',
+196 silly addNameRange     '2.30.0',
+196 silly addNameRange     '2.29.0',
+196 silly addNameRange     '2.28.0',
+196 silly addNameRange     '2.27.0',
+196 silly addNameRange     '2.26.0',
+196 silly addNameRange     '2.25.0',
+196 silly addNameRange     '2.24.0',
+196 silly addNameRange     '2.23.0',
+196 silly addNameRange     '2.22.0',
+196 silly addNameRange     '2.21.0',
+196 silly addNameRange     '2.20.0',
+196 silly addNameRange     '2.19.0',
+196 silly addNameRange     '2.18.0',
+196 silly addNameRange     '2.16.6',
+196 silly addNameRange     '2.16.4',
+196 silly addNameRange     '2.16.2',
+196 silly addNameRange     '2.16.0',
+196 silly addNameRange     '2.14.0',
+196 silly addNameRange     '2.12.0',
+196 silly addNameRange     '2.11.4',
+196 silly addNameRange     '2.11.3',
+196 silly addNameRange     '2.11.2',
+196 silly addNameRange     '2.11.1',
+196 silly addNameRange     '2.11.0',
+196 silly addNameRange     '2.10.0',
+196 silly addNameRange     '2.9.203',
+196 silly addNameRange     '2.9.202',
+196 silly addNameRange     '2.9.201',
+196 silly addNameRange     '2.9.200',
+196 silly addNameRange     '2.9.153',
+196 silly addNameRange     '2.9.152',
+196 silly addNameRange     '2.9.151',
+196 silly addNameRange     '2.9.150',
+196 silly addNameRange     '2.9.100',
+196 silly addNameRange     '2.9.3',
+196 silly addNameRange     '2.9.2',
+196 silly addNameRange     '2.9.1',
+196 silly addNameRange     '2.9.0',
+196 silly addNameRange     '2.2.9',
+196 silly addNameRange     '2.2.6',
+196 silly addNameRange     '2.2.5',
+196 silly addNameRange     '2.2.0',
+196 silly addNameRange     '2.1.1',
+196 silly addNameRange     '2.1.0',
+196 silly addNameRange     '2.0.5',
+196 silly addNameRange     '2.0.4',
+196 silly addNameRange     '2.0.3',
+196 silly addNameRange     ... 24 more items ] ]
+197 silly addNamed request@2.87.0
+198 verbose addNamed "2.87.0" is a plain semver version for request
+199 verbose get http://npmrepo.corp.qunar.com/iconv-lite not expired, no request
+200 silly addNameRange number 2 { name: 'iconv-lite', range: '>=0.4.23 <0.5.0', hasData: true }
+201 silly addNameRange versions [ 'iconv-lite',
+201 silly addNameRange   [ '0.4.19',
+201 silly addNameRange     '0.4.18',
+201 silly addNameRange     '0.4.17',
+201 silly addNameRange     '0.4.16',
+201 silly addNameRange     '0.4.15',
+201 silly addNameRange     '0.4.14',
+201 silly addNameRange     '0.4.13',
+201 silly addNameRange     '0.4.12',
+201 silly addNameRange     '0.4.11',
+201 silly addNameRange     '0.4.10',
+201 silly addNameRange     '0.4.9',
+201 silly addNameRange     '0.4.8',
+201 silly addNameRange     '0.4.7',
+201 silly addNameRange     '0.4.6',
+201 silly addNameRange     '0.4.5',
+201 silly addNameRange     '0.4.4',
+201 silly addNameRange     '0.4.3',
+201 silly addNameRange     '0.4.2',
+201 silly addNameRange     '0.4.1',
+201 silly addNameRange     '0.4.0',
+201 silly addNameRange     '0.4.0-pre3',
+201 silly addNameRange     '0.4.0-pre2',
+201 silly addNameRange     '0.4.0-pre',
+201 silly addNameRange     '0.2.11',
+201 silly addNameRange     '0.2.10',
+201 silly addNameRange     '0.2.9',
+201 silly addNameRange     '0.2.8',
+201 silly addNameRange     '0.2.7',
+201 silly addNameRange     '0.2.6',
+201 silly addNameRange     '0.2.5',
+201 silly addNameRange     '0.2.4',
+201 silly addNameRange     '0.2.3',
+201 silly addNameRange     '0.2.1',
+201 silly addNameRange     '0.2.0',
+201 silly addNameRange     '0.1.4',
+201 silly addNameRange     '0.1.3',
+201 silly addNameRange     '0.1.2',
+201 silly addNameRange     '0.1.1',
+201 silly addNameRange     '0.1.0',
+201 silly addNameRange     '0.4.21',
+201 silly addNameRange     '0.4.20',
+201 silly addNameRange     '0.4.22',
+201 silly addNameRange     '0.4.23' ] ]
+202 silly addNamed iconv-lite@0.4.23
+203 verbose addNamed "0.4.23" is a plain semver version for iconv-lite
+204 silly cache afterAdd request@2.87.0
+205 verbose afterAdd /Users/qitmac000447/.npm/request/2.87.0/package/package.json not in flight; writing
+206 verbose correctMkdir /Users/qitmac000447/.npm correctMkdir not in flight; initializing
+207 silly cache afterAdd iconv-lite@0.4.23
+208 verbose afterAdd /Users/qitmac000447/.npm/iconv-lite/0.4.23/package/package.json not in flight; writing
+209 verbose correctMkdir /Users/qitmac000447/.npm correctMkdir not in flight; initializing
+210 verbose afterAdd /Users/qitmac000447/.npm/iconv-lite/0.4.23/package/package.json written
+211 verbose afterAdd /Users/qitmac000447/.npm/request/2.87.0/package/package.json written
+212 silly rollbackFailedOptional Starting
+213 silly rollbackFailedOptional Finishing
+214 silly runTopLevelLifecycles Finishing
+215 silly install printInstalled
+216 verbose stack Error: connect ETIMEDOUT 10.88.159.10:80
+216 verbose stack     at Object.exports._errnoException (util.js:1022:11)
+216 verbose stack     at exports._exceptionWithHostPort (util.js:1045:20)
+216 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+217 verbose cwd /Users/qitmac000447/Documents/hackthon/demo
+218 error Darwin 17.7.0
+219 error argv "/Users/qitmac000447/.nvm/versions/node/v6.9.2/bin/node" "/Users/qitmac000447/.nvm/versions/node/v6.9.2/bin/npm" "install"
+220 error node v6.9.2
+221 error npm  v3.10.9
+222 error code ETIMEDOUT
+223 error errno ETIMEDOUT
+224 error syscall connect
+225 error network connect ETIMEDOUT 10.88.159.10:80
+226 error network This is most likely not a problem with npm itself
+226 error network and is related to network connectivity.
+226 error network In most cases you are behind a proxy or have bad network settings.
+226 error network
+226 error network If you are behind a proxy, please make sure that the
+226 error network 'proxy' config is set properly.  See: 'npm help config'
+227 verbose exit [ 1, true ]
